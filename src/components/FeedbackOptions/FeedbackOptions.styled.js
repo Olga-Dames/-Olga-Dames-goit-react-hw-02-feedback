@@ -16,12 +16,11 @@ export const Button = styled.button`
   color: white;
   font-weight: bold;
   outline: transparent;
-  transform: scale(1)
-  transition: background-color 250ms linear,
-  transform 250ms linear;
+  transform: scale(1);
+  transition: background-color 250ms linear, transform 250ms linear;
 
   &:hover {
     background-color: #008a98;
-    transform: scale(1.5)
+    transform: scale(1.15)
   }
 `;
